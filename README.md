@@ -32,19 +32,20 @@ The data will be inserted into a table name called "numbers".
 Execution time
 ===================
 Below, a CSV file with a file size of 61 570 904 bytes (~61.6 MB) was used.<br>
-Execution time was 311 ms on an i7-10510U running MS Windows 10 Pro (19045).
+Execution time was 297 ms on an i7-10510U running MS Windows 10 Pro (19045).
 
 ```
-*** csv2sqlite ver. 1.0 (c) 2023 swepeba ***
+*** csv2sqlite ver. 1.0 (c) 2023, swepeba ***
 MIT License - https://github.com/swepeba/csv2sqlite
 
-PRE-CHECKS
+INFORMATION
 ---> A new database file will be created
----> Rows in CSV file: 36420
----> Cols in CSV file: 26
+---> CSV file: test.csv
+------> Rows in CSV file: 36420
+------> Cols in CSV file: 26
 
 SUMMARY
----> Rows converted: 36420 (311 ms)
+---> Rows converted: 36420 (297 ms)
 ---> SUCCESS, all rows converted
 ```
 
