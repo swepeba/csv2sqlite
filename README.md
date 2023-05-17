@@ -57,11 +57,16 @@ Download
 ===================
 A pre-built and signed [binary (.exe)](https://github.com/swepeba/csv2sqlite/releases/latest) is found in the latest release.
 
-Planned updates
+Future releases
 ===================
 * Support for bulk conversion of all CSV files in a folder. In version 1.0 the tool has to be executed for each CSV file.
 
-Changelog
+Release notes
 ===================
 ver. 1.0 (2023-05-16)
 * First release.
+
+License
+===================
+Copyright (c) swepeba.
+Licensed under the [MIT License](LICENSE).
