@@ -1,3 +1,4 @@
+![Banner](csv2sqlite-banner.jpg)
 csv2sqlite
 ===================
 csv2sqlite is a fast and simple to use conversion tool that converts the content of a CSV file into a table in a SQLite database file.
