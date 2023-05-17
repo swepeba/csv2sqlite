@@ -2,7 +2,10 @@ csv2sqlite
 ===================
 csv2sqlite is a fast and simple to use conversion tool that converts the content of a CSV file into a table in a SQLite database file.
 
-The number of columns is arbitrary. The CSV file must have a header row and use comma as a delimiter between columns. Values for each column may be quoted.
+* Comma character has to be used between columns.
+* Double quote characters (") can be used to mark the start and end of a column.
+* The number of columns is automatically found.
+* The tool will assume that the first row is a header row including the column names.
 
 The tool can also be used to import the content of many CSV files into the same SQLite database file.
 
