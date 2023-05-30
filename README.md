@@ -1,7 +1,7 @@
 ![Banner](csv2sqlite-banner.jpg)
 csv2sqlite
 ===================
-csv2sqlite is a fast and simple to use conversion tool that converts the content of one or many CSV files into tables in a SQLite database file.
+csv2sqlite is a fast and simple to use conversion tool that converts the content of one or many CSV files into tables in a SQLite database file. Supports [RFC 4180](https://www.ietf.org/rfc/rfc4180.txt).
 
 * Comma character has to be used between columns.
 * Double quote characters (") can be used to mark the start and end of a column.
@@ -26,13 +26,13 @@ usage: csv2sqlite.exe -o <db file> -f <csv file> [-t <name>] [-p <path>] [-h]
 
 Examples
 ===================
-`csv2log.exe -o test.db -f statistics.csv`<br>
+`csv2sqlite.exe -o test.db -f statistics.csv`<br>
 The data will be inserted into a table name named as the filename of the csv file. In this case to "statistics".
 
-`csv2log.exe -o test.db -f statistics.csv -t numbers`<br>
+`csv2sqlite.exe -o test.db -f statistics.csv -t numbers`<br>
 The data will be inserted into a table name called "numbers".
 
-`csv2log.exe -o test.db -p c:\temp`<br>
+`csv2sqlite.exe -o test.db -p c:\temp`<br>
 The data from all existing CSV files found in the path will be inserted into the same database file.
 
 <i><ins>Please notice:</ins> If the table name already exists in the SQLite database and the number of columns matches, the content of the CSV file will be added to the table like an INSERT.</i>
