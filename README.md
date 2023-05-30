@@ -1,6 +1,9 @@
 ![Banner](csv2sqlite-banner.jpg)
 csv2sqlite
 ===================
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
+<img src="https://img.shields.io/badge/Windows-Executable-green">
+<br>
 csv2sqlite is a fast and simple to use conversion tool that converts the content of one or many CSV files into tables in a SQLite database file. Supports [RFC 4180](https://www.ietf.org/rfc/rfc4180.txt).
 
 * Comma character has to be used between columns.
